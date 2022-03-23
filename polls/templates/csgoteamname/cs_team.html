@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all teams</title>
+</head>
+<body>
+    <div>
+        {% for team in teams%}
+            <div>
+                <a href="http://127.0.0.1:4357/teamnames/{{team}}">{{team}}</a>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
